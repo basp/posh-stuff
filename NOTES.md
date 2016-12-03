@@ -42,7 +42,7 @@ type `[math]` instead.
 PowerShell supports all the usual assignment operators but it also has a few
 nice extras. We can do multiple assignment of course:
 
-    > $a = "A", $b = "B"
+    > $a = "A"; $b = "B"
     > $a, $b = $b, $a
     > "A = $a, B = $b"
     A = B, B = A
