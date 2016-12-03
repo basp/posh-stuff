@@ -37,3 +37,13 @@ that your PowerShell environment supports.
 Note that all the classes in the `System` namespace are *automagically*
 aliased so that, for example, to get at the `System.Math` class you can just
 type `[math]` instead.
+
+# Assignment
+PowerShell supports all the usual assignment operators but it also has a few
+nice extras. We can do multiple assignment of course:
+
+    > $a = "A", $b = "B"
+    > $a, $b = $b, $a
+    > "A = $a, B = $b"
+    A = B, B = A
+
