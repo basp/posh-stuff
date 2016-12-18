@@ -47,3 +47,9 @@ nice extras. We can do multiple assignment of course:
     > "A = $a, B = $b"
     A = B, B = A
 
+But it can do more as well. We can also destructure arrays.
+
+    > $arr = 1,2,3
+    > $a, $b, $c = $arr
+    > $b
+    2
